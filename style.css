@@ -107,7 +107,10 @@ main {
   margin: 0 auto;
   padding: 85px 150px;
 }
-
+/* main section {
+  margin-top: 50px;
+  margin-bottom: 50px;
+} */
 /* about section style  */
 #section-title-edit {
   padding-bottom: 25px;
@@ -161,4 +164,35 @@ main {
   padding-top: 25px;
   color: rgb(117, 117, 117);
   font-size: 13px;
+}
+
+/* Resume section styles */
+.resume-container {
+  display: flex;
+  gap: 24px;
+}
+.section-title {
+  text-align: center;
+}
+.resume-column-title {
+  color: rgb(71, 71, 71);
+  font-size: 20px;
+  padding-bottom: 30px;
+}
+.experience-title {
+  font-size: 17px;
+  font-weight: bold;
+  color: rgb(71, 71, 71);
+  padding-bottom: 5px;
+  padding-top: 10px;
+}
+.experience-subtitle {
+  color: rgb(117, 117, 117);
+  font-size: 13px;
+  margin-bottom: 15px;
+}
+.experience-describtion {
+  color: rgb(117, 117, 117);
+  font-size: 12px;
+  margin-bottom: 15px;
 }
