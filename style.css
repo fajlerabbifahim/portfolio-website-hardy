@@ -27,6 +27,11 @@
   border-radius: 7px;
   padding: 10px 22px;
   background: rgb(253, 110, 10);
+  cursor: pointer;
+  transition: ease 400ms;
+}
+.btn-primary:hover {
+  background: rgb(211, 119, 48);
 }
 .section-title {
   color: rgb(24, 24, 24);
@@ -100,6 +105,7 @@ nav ul li a {
 #btn-cv {
   margin-right: 15px;
   padding: 10px 19px;
+  cursor: pointer;
 }
 /* main styles */
 main {
@@ -107,10 +113,7 @@ main {
   margin: 0 auto;
   padding: 85px 150px;
 }
-/* main section {
-  margin-top: 50px;
-  margin-bottom: 50px;
-} */
+
 /* about section style  */
 #section-title-edit {
   padding-bottom: 25px;
@@ -171,9 +174,7 @@ main {
   display: flex;
   gap: 24px;
 }
-.section-title {
-  text-align: center;
-}
+
 .resume-column-title {
   color: rgb(71, 71, 71);
   font-size: 20px;
@@ -195,4 +196,44 @@ main {
   color: rgb(117, 117, 117);
   font-size: 12px;
   margin-bottom: 15px;
+}
+
+/* Footer Section Styles */
+
+footer {
+  display: flex;
+  padding: 130px 250px;
+  gap: 100px;
+}
+.footer-describtion {
+  font-size: 14px;
+  padding-top: 25px;
+  color: rgb(71, 71, 71);
+}
+.icons a i {
+  font-size: 30px;
+  color: rgb(71, 71, 71);
+  margin-top: 10px;
+  margin-right: 8px;
+  transition: 0.5s ease;
+}
+.icons a:hover i {
+  transform: scale(1.3);
+}
+form input {
+  display: block;
+  height: 40px;
+  width: 100%;
+  border-radius: 5px;
+  border: none;
+  border: 1px solid black;
+  margin-bottom: 10px;
+  padding-left: 9px;
+}
+form textarea {
+  padding-left: 9px;
+}
+form #submit-btn {
+  margin-top: 20px;
+  cursor: pointer;
 }
